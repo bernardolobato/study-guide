@@ -1,0 +1,113 @@
+Specs:
+https://www.jcp.org/en/home/index
+
+https://www.jcp.org/en/jsr/detail?id=317
+
+
+Referências (Livros):
+
+https://gist.github.com/feh-wilinando/b8667e5176215013ba22189881377516
+https://gist.github.com/feh-wilinando/34e0e2939c22bae3a42cea43eb7130ee
+https://gist.github.com/feh-wilinando/47f60f8d5275ac780ceafebf2466ac11
+https://www.oreilly.com/programming/free/migrating-to-microservice-databases.csp
+https://domineospring.wordpress.com/author/fehwilinando/
+
+JVM:
+Java HotSpot VM Options: https://www.oracle.com/technetwork/articles/java/vmoptions-jsp-140102.html
+https://docs.oracle.com/cd/E19900-01/819-4742/abeik/index.html
+
+java -XX:+PrintFlagsFinal -version | grep -i gc
+
+-verbose:gc
+
+jvisualvm (para analisar a detalhes da JVM)
+
+Identificar ClassLoaders fantasmas:
+select w from org.apache.catalina.loader.WebappClassLoader w
+   where w.started == false
+
+Dicas/Sugestões:
+Comparar null com Java 8
+https://docs.oracle.com/javase/8/docs/api/java/util/Objects.html
+
+
+
+-XX:MetaspaceSize
+-XX:MaxMetaspaceSize=
+
+https://sourcemaking.com/refactoring/smells
+https://refactoring.guru/refactoring/smells
+https://www.oreilly.com/programming/free/software-architecture-patterns.csp	
+
+SWAGGER:
+http://192.168.1.241:8080/swagger-ui.html#/
+
+http://spring.io/projects/spring-cloud-openfeign
+
+https://cloud.spring.io/spring-cloud-config/
+
+
+spring-cloud-netflix-hystrix-stream
+spring-cloud-starter-stream-rabbit
+spring-cloud-starter-netflix-eureka-client
+
+https://github.com/feh-wilinando/spring-microservice
+
+
+Links:
+https://spring.io/tools
+https://github.com/codecentric/spring-boot-admin
+https://micrometer.io/
+https://grafana.com/
+https://www.influxdata.com/
+https://docs.spring.io/spring-boot/docs/current/reference/html/production-ready-metrics.html
+https://glowroot.org/
+https://github.com/psi-probe/psi-probe
+https://newrelic.com/
+https://www.appdynamics.com/
+https://www.datadoghq.com/lpg/?utm_source=Advertisement&utm_medium=GoogleAdsNon1stTierBrand&utm_campaign=GoogleAdsNon1stTierBrand-Non1st&utm_content=Datadog&utm_keyword=%7Bkeyword%7D&utm_matchtype=%7Bmatchtype%7D&gclid=EAIaIQobChMI35vGz_js3gIVDYWRCh0LoQkPEAAYASAAEgLBzvD_BwE&utm_expid=.40ES1QyrT6Sm1I5PXMEjqQ.0&utm_referrer=https%3A%2F%2Fwww.google.com.br%2F
+https://docs.oracle.com/javase/7/docs/technotes/guides/apt/index.html
+https://projectlombok.org/
+https://github.com/spotify/dockerfile-maven
+https://bytebuddy.net/
+https://github.com/feh-wilinando/fj91-bytecode
+https://github.com/feh-wilinando/caelum-nginx-treinamento
+https://letsencrypt.org/
+Extensibilidade
+	https://martinfowler.com/bliki/BlueGreenDeployment.html
+	https://martinfowler.com/bliki/CanaryRelease.html
+
+Code Design 
+	https://medium.com/the-coding-matrix/ddd-101-the-5-minute-tour-7a3037cf53b8
+	https://martinfowler.com/tags/domain%20driven%20design.html
+
+Architectural Design Patterns
+	https://developer.mozilla.org/en-US/docs/Web/Apps/Fundamentals/Modern_web_app_architecture/MVC_architecture
+	https://www.wintellect.com/model-view-viewmodel-mvvm-explained/
+	https://medium.com/@ankit.sinhal/mvc-mvp-and-mvvm-design-pattern-6e169567bbad
+	https://www.javatpoint.com/django-mvt
+	https://medium.com/@smalam119/viper-design-pattern-for-ios-application-development-7a9703902af6
+	
+	https://fideloper.com/hexagonal-architecture
+	https://blog.ndepend.com/hexagonal-architecture/
+
+	http://blog.cleancoder.com/uncle-bob/2012/08/13/the-clean-architecture.html
+	https://jeffreypalermo.com/2008/07/the-onion-architecture-part-1/
+
+	https://microservices.io/patterns/microservices.html
+	https://martinfowler.com/articles/microservices.html
+
+	https://microservices.io/patterns/data/event-driven-architecture.html
+	https://martinfowler.com/articles/201701-event-driven.html
+	https://www.oreilly.com/library/view/software-architecture-patterns/9781491971437/ch02.html
+
+Database
+	https://erwin.com/blog/sql-nosql-newsql/
+	https://dataconomy.com/2015/08/sql-vs-nosql-vs-newsql-finding-the-right-solution/
+
+Microservice Design patterns
+	https://dzone.com/articles/design-patterns-for-microservices
+	https://microservices.io/patterns/index.html
+
+
+
